@@ -1,0 +1,24 @@
+<mat-card>
+  <mat-form-field>
+    <input matInput [(ngModel)]="answer" placeholder="UserId">
+  </mat-form-field>
+
+  <br>
+  
+    <mat-form-field>
+      <input matInput [(ngModel)]="answer" placeholder="Password">
+    </mat-form-field>
+  
+    <br>
+<button mat-button>Login</button>
+  </mat-card>
+  <mat-card>
+  <ul>
+    <li><a routerLink="">Home</a></li>
+    <li><a routerLink="about">About</a></li>
+  </ul>
+  
+  <router-outlet></router-outlet>
+</mat-card>
+  
+  
